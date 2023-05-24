@@ -20,7 +20,7 @@ We introduce a novel learning scheme named weakly semi-supervised instance segme
 
 
 ## Updates    
-**_2024-05-19_** First Commit, We release the official implementation of PointWSSIS.  
+**_2023-05-19_** First Commit, We release the official implementation of PointWSSIS.  
 
 
 ## Installation
@@ -115,10 +115,11 @@ bash scripts/coco_50p.sh # coco 50% scenario
 
 ## How to Cite
 ```
-@article{kim2023devil,
+@inproceedings{kim2023devil,
   title={The Devil is in the Points: Weakly Semi-Supervised Instance Segmentation via Point-Guided Mask Representation},
   author={Kim, Beomyoung and Jeong, Joonhyun and Han, Dongyoon and Hwang, Sung Ju},
-  journal={arXiv preprint arXiv:2303.15062},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={11360--11370},
   year={2023}
 }
 ```
